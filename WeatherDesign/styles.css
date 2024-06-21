@@ -1,0 +1,198 @@
+header {
+    border-bottom: 1px solid rgba(200, 200, 200, 0.762);
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+.header_inner_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.header_title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.header_title_wrap {
+    display: flex;
+    align-items: center;
+}
+.header_options {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.current_time_details {
+    display: flex;
+    align-items: center;
+}
+.logout_button {
+    padding: 7px 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    background-color: rgba(251, 29, 29, 0.693);
+    margin-left: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.time_image_container img {
+    height: 25px;
+    width: 25px;
+}
+.time_image_container {
+    margin-right: 13px;
+}
+.time_info_container {
+    font-size: 15px;
+    color: gray;
+}
+.down_arrow_icon_container {
+    margin: 0 13px;
+    color: gray;
+    font-size: 15px;
+}
+
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(225, 225, 225, 0.322);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.location {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    display: flex;
+    padding: 10px 10px;
+    margin-top: 13px;
+    border-radius: 10px;
+}
+.location_weather_icon_wrap {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.location_info {
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    list-style-type: none;
+}
+.location_info_details {
+    display: flex;
+}
+.location_temperature {
+    display: flex;
+}
+.location_wind {
+    display: flex;
+}
+.location_title {
+    margin-left:0px;
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+.location_temperature i {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+.location_temperature_text {
+    margin-left: 5px;
+    color: black;
+}
+.location_wind {
+    margin-left: 20px;
+}
+.location_wind i {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+.location_wind_text {
+    margin-left: 5px;
+    color: black;
+}
+
+nav {
+    position:absolute;
+    background-color: rgb(243, 243, 243);
+    top: 70px;
+    padding: 10px 13px 10px 10px
+}
+nav .current_time_details:not(:first-child) {
+    margin-top: 20px;
+}
+nav .current_time_details:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    padding: 35px 35px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+form label {
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+form label:not(:first-child) {
+    margin-top: 10px;
+}
+form label input {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+    margin-top: 8px;
+}
+form button {
+    cursor: pointer;
+    border-radius: 7px;
+    color: black;
+    border: none;
+    font-size: 16px;
+    padding: 7px;
+    margin-top: 25px;
+    background-color: rgb(243, 243, 243);
+}
+.form_redirect {
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+form a {
+    color: rgb(81, 173, 213);
+    font-size: 15px;
+    cursor: pointer;
+    width: 70%;
+    text-align: center;
+}
